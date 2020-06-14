@@ -1,1 +1,138 @@
+.main-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
 
+.form-div{
+    display: flex;
+    flex-direction: column;
+    width: 350px;  
+    background-color: lightgray;
+    height:300px; 
+    padding:30px;
+    border-radius: 15px;
+    padding-bottom: 20px;
+    margin-top:20px;
+    font-family: monospace;
+    font-size: large;
+    margin-bottom: 10px;
+}
+
+.form-div h1{
+    margin:0;
+    margin-bottom: 10px;
+}
+
+#name-text, #URL-text{
+    font-size: 20px;
+    font-family: cursive;
+    margin:10px 0px;
+}
+
+.name-input, .URL-input{
+    height:35px;
+    padding:5px 10px;
+    font-size:20px;
+}
+
+.bookmark-button{
+    height:50px;
+    width:150px;
+    border-radius: 5px;
+    border:none;
+    background-color: royalblue;
+    margin:18px;
+    margin-bottom: 20px;
+    color:white;
+    font-size: 18px;
+}
+
+.bookmark-button:focus{
+    outline: none;
+}
+
+.bookmark_tab_divs{
+    background-color: royalblue;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+#name_of_bookmark{
+    margin: 0px 15px;
+    color:#e68a00;
+    font-family: Arial, Helvetica, sans-serif;
+    width:20px;
+}
+
+#name_of_bookmark:hover{
+    margin:'20px auto';
+    color: #ff9800;
+    font-size: 20px;
+    transition: 0.4s;
+}
+
+.delete_button, #visit_button{
+    margin: 0px 15px;
+    padding:10px;
+    width:100px;
+    border:none;
+    background-color: white;
+}
+
+
+#visit_button{
+    padding:10px 37.5px;
+    font-size: 13.3333px;
+    font-family: Arial;
+    text-decoration:none;
+    color:#4CAF50
+}
+
+#visit_button:hover{
+    background-color: #4CAF50;
+    color:white;
+}
+
+
+.delete_button{
+    color: red;
+}
+
+.delete_button:hover{
+    background-color: red;
+    color:white;
+}
+
+.success{
+    background-color: #4CAF50;
+}
+
+.success:hover{
+    background-color: #46a049;
+}
+
+.info{
+    background-color: #2196F3;
+}
+
+.info:hover{
+    background: #0b7dda;
+}
+
+.danger{
+    background-color: #f44336;  
+}
+
+.danger:hover{
+    background: #da190b;
+}
+
+.warning{
+    background-color: #ff9800;
+}
+
+.warning:hover{
+    background: #e68a00;
+}
